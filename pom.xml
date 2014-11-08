@@ -93,6 +93,18 @@
             <name>Sourceforge Releases</name>
             <url>https://oss.sonatype.org/content/repositories/sourceforge-releases</url>
         </repository>
+		<repository>
+			<id>kafeitu</id>
+			<url>http://maven.kafeitu.me/nexus/content/groups/public</url>
+		</repository>
+		<repository>
+			<id>Activiti</id>
+			<url>https://maven.alfresco.com/nexus/content/groups/public</url>
+		</repository>
+		<repository>
+			<id>Codehaus</id>
+			<url>http://repository.codehaus.org</url>
+		</repository>
 
     </repositories>
     <pluginRepositories>
@@ -117,6 +129,14 @@
             <name>maven db plugin repository</name>
             <url>https://maven-db-plugin.googlecode.com/svn/maven/repo</url>
             <layout>default</layout>
+        </pluginRepository>
+        <pluginRepository>
+			<id>kafeitu</id>
+			<url>http://maven.kafeitu.me/nexus/content/groups/public</url>
+        </pluginRepository>
+        <pluginRepository>
+			<id>Activiti</id>
+			<url>https://maven.alfresco.com/nexus/content/groups/public</url>
         </pluginRepository>
 
     </pluginRepositories>
