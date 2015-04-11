@@ -193,7 +193,7 @@
             <id>local</id>
             <name>filesystem</name>
             <!-- 修改到磁盘的相应位置 -->
-            <url>file:D:\target\site</url>
+            <url>file:D:\</url>
         </site>
     </distributionManagement>
 
